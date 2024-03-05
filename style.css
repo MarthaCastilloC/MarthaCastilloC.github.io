@@ -1,0 +1,209 @@
+body{
+    background: linear-gradient(to  bottom right, #aacc00, #f1ba0a,#a21112);
+}
+header{
+    display: flex;
+    background: linear-gradient(to bottom left, #161a1d, #660708);
+    justify-content:space-between;
+    position: fixed;
+    padding:5px;
+    z-index: 1;
+}
+header h1{  
+    font-family: "Protest Revolution", sans-serif;
+    text-align: center;
+    color: antiquewhite;
+}
+#logo{ 
+    width: 8%;
+    height: 13%;
+    }
+nav ul{ 
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    
+}
+nav ul li{
+    padding:10px;
+}
+nav ul a{ text-decoration: none;
+color: antiquewhite;
+font-family: "Protest Riot", sans-serif;
+}
+header h1{
+    text-align: center;
+}
+header img{border-radius: 50%;}
+.que{
+    margin-top: 100px;
+    margin-left: 40px;
+    margin-right: 40px;
+    display: flex;
+    flex-direction: column;
+}
+.que h2{
+    font-size: 30px;
+    font-family: "Protest Revolution", sans-serif;
+    text-align: center;
+    color:wheat;
+}
+.que img{
+    width: 30%;
+    height: 30%;
+    border-radius: 20%;
+    margin-left: 36%;
+}
+.que p{
+    font-size: 20px;
+    text-align: center;
+    color: wheat;
+    font-family: "Protest Riot", sans-serif;
+}
+.clasificación{
+    margin-top: 100px;
+    margin-left: 40px;
+    margin-right: 40px;
+    display: flex;
+    flex-direction: column;
+}
+.clasificación h2{
+    font-family: "Protest Revolution", sans-serif;
+    color: antiquewhite;
+    text-align: center;
+}
+.clasificación h4{
+    font-family: "Protest Revolution", sans-serif;
+    color: antiquewhite;
+    text-align: left;
+}
+.clasificación p{
+    color: antiquewhite;
+    text-align: justify;
+    font-family: "Protest Riot", sans-serif;
+    font-size: 20px;
+}
+.clasificación ul{
+    color: antiquewhite;
+    text-align: justify;
+    font-family: "Protest Riot", sans-serif;
+    font-size: 20px;
+}
+#latinoamerica{
+    margin-top: 100px;
+    margin-left: 40px;
+    margin-right: 40px;
+    display: flex;
+    flex-direction: column;
+}
+#latinoamerica h3{
+    font-family: "Protest Revolution", sans-serif;
+    margin-top: 150px;
+    font-size: 30px;
+    text-align: center;
+    color:wheat;
+}
+#latinoamerica ul{
+    color: antiquewhite;
+    text-align: justify;
+    font-family: "Protest Riot", sans-serif;
+    font-size: 20px;
+}
+#asia{
+    margin-top: 100px;
+    margin-left: 40px;
+    margin-right: 40px;
+    display: flex;
+    flex-direction: column;
+}
+#asia h3{
+    margin-top: 150px;
+    font-size: 30px;
+    font-family: "Protest Revolution", sans-serif;
+    text-align: center;
+    color:wheat;
+}
+#asia ul{
+    color: antiquewhite;
+    text-align: justify;
+    font-family: "Protest Riot", sans-serif;
+    font-size: 20px;
+}
+#oriente{
+    margin-top: 100px;
+    margin-left: 40px;
+    margin-right: 40px;
+    display: flex;
+    flex-direction: column;
+}
+#oriente h3{
+    margin-top: 150px;
+    font-size: 30px;
+    font-family: "Protest Revolution", sans-serif;
+    text-align: center;
+    color:wheat;
+}
+#oriente ul{
+    color: antiquewhite;
+    text-align: justify;
+    font-family: "Protest Riot", sans-serif;
+    font-size: 20px;
+}
+#mediteranias{
+    margin-top: 100px;
+    margin-left: 40px;
+    margin-right: 40px;
+    display: flex;
+    flex-direction: column;
+}
+#mediteranias h3{
+    margin-top: 150px;
+    font-family: "Protest Revolution", sans-serif;
+    font-size: 30px;
+    text-align: center;
+    color:wheat;
+}
+#mediteranias ul{
+    color: antiquewhite;
+    text-align: justify;
+    font-family: "Protest Riot", sans-serif;
+}   
+.imags{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.imags img{
+    border-radius: 100%;
+}
+
+#mavi{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+footer{
+    background-color: #140000;
+    display: flex ;
+    flex-direction: row;
+    justify-content: space-around;
+    color: beige;
+}
+footer img{
+    width: 40px;
+    height: 50px;
+    margin-top: 20%;
+}
+footer p{
+    font-family: "Protest Riot", sans-serif;
+    margin-top: 30px;
+}
+#correo{
+    font-family: "Protest Riot", sans-serif;
+    margin-bottom:20px ;
+}
